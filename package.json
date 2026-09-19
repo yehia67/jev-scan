@@ -1,0 +1,25 @@
+{
+  "name": "jev-scan",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "jev-scan": "./bin/jev-scan.js"
+  },
+  "scripts": {
+    "scan": "node --experimental-strip-types src/cli.ts",
+    "classify": "node --experimental-strip-types src/cli.ts --fixture",
+    "classify:vague": "node --experimental-strip-types src/cli.ts --fixture --vague"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.5.7",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
