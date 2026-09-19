@@ -1,6 +1,6 @@
 # Jev scan
 
-After a coding agent finishes, this checks its git diff against the original request. It flags edits that were not asked for.
+After a coding agent finishes, this checks its git diff against the original request. It flags edits that were not asked for
 
 Works with Cursor, Codex, Claude Code, Devin, or any agent that can run a command.
 
